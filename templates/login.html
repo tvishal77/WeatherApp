@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="static/login.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h3>Project-01</h3>
+            <img src="static/images/wise work logo.png " alt="" height="40vh">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                {% include "message.html" %}
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="/signup2">Sign up</a></p>
+        </div>
+    </main>
+    <footer>
+        <div class="fcontainer">
+            <div class="copyright">
+              &copy; Copyrights All Rights Reserved
+            </div>
+            <div class="credits">
+              Designed By <a href="https://www.linkedin.com/in/thrambadia-vishal">Vishal</a>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>

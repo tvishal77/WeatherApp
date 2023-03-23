@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 5vh;
+    color: rgb(208, 255, 0);
+    padding-top: 5vh;
+    padding-bottom: 6vh;
+}
+main {
+    min-height: calc(100vh - 13.4vh);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.location{
+    text-align: center;
+}
+input{
+    width: 50%;
+    height: 4vh;
+    border-style:dashed;
+    border-radius: 2vh;
+    background-color: rgb(143, 187, 229);
+    padding-left: 1.5vh;
+}
+button{
+    height: 4.5vh;
+    width: 12vh;
+    border-radius: 2vh;
+    background-color: rgb(143, 187, 229);
+}
+button:hover{
+    color: rgb(31, 36, 36);
+    background-color: rgb(98, 171, 171);
+    cursor:pointer;
+}
+form{
+    text-align: right;
+}
+h3{
+    font-size: 4vh;
+    font-style: oblique;
+    color: brown;
+}
+div.head{
+    background-color: rgb(192, 240, 238);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    justify-content: space-between;
+}
+a{
+    color: aliceblue;
+}
+div.tab{
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    margin-top: 2vh;
+    align-items: center;
+    
+}
+th{
+    padding: 1vh 1vh 1vh 1vh;
+    color: rgb(88, 36, 121);
+    font-size:3vh;
+    font-weight: bolder;
+}
+td{
+    font-size:3vh;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+h4{
+    font-size:4.5vh;
+    font-style: oblique;
+    color: rgb(0, 252, 34);
+}
+table{
+    margin: 0 auto;
+}
+h2{
+    font-size: 4vh;
+    color: rgb(194, 159, 57);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    padding-bottom: 1.5vh;
+    text-decoration:underline;
+}
+li{
+    font-size: 3vh;
+    padding-bottom: 1.5vh;
+    font-family: cursive;
+    font-style: italic ;
+    font: bolder;
+    font-weight: bolder;
+    color: rgb(123, 61, 13);
+    
+}
+div.card{
+    padding-top: 0.5vh;
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+div.body{
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+div.container{
+    text-align: center;
+    background-color: rgb(29, 79, 96);
+    color: aliceblue;
+}
+div.copyright{
+    font-style:oblique;
+    font-size:large;
+}
+div.credits{
+    font-style: oblique;
+    font-size: large;
+}

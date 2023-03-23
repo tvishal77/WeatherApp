@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Home Page</title>
+    
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h3>Project-01</h3>
+            
+            <img src="static/images/wise work logo.png" alt="" height="40vh">
+        </div>
+    </header>
+    <main style="background-image: url(static/images/sky.avif)">
+        <form action="/logout" method="POST">
+            <button>Logout</button>
+        </form>
+        <h1><strong>Let's know the weather condition</strong></h1>
+        <div class="location">
+            <input id="city" type="text"   placeholder="Enter the location" >
+            <button type="submit1" id="submit">Search</button>
+        </div>
+            <div class="card" >
+              <div class="body">
+                <h2 class="card-title">Weather Condition in <span id="cityName"></span></h2>
+                  <ul>
+                      <li> Temperature is <span id="temp"></span>&#8451</li>
+                      <li> Feels Like  <span id="feels_like"></span></li>
+                      <li> Humidity is <span id="humidity"></span></li>
+                      <li> Cloud PCT is <span id="cloud_pct"></span></li>
+                      <li> Min Tempearture is <span id="min_temp"></span>&#8451</li>
+                      <li> Max Temperature is <span id="max_temp"></span>&#8451</li>
+                      <li> Wind Speed is <span id="wind_speed"></span></li>
+                  </ul>
+              </div>
+              <div class="body">
+                <h4>Weather of Your Favorite places</h4>
+                    
+          <table>
+            <thead>
+              <tr>
+                <th>Conditions</th>
+                <th>Temp</th>
+                <th>Humidity</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Adilabad</th>
+                <td><span id="tempa"></span>&#8451</td>
+                <td><span id="humiditya"></span></td>
+                
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Hyderabad</th>
+                <td><span id="temph"></span>&#8451</td>
+                <td><span id="humidityh"></span></td>
+                
+              </tr>
+            </tbody>
+            <br>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Delhi</th>
+                <td><span id="tempd"></span>&#8451</td>
+                <td><span id="humidityd"></span></td>
+                
+              </tr>
+            </tbody>
+          </table>
+              </div>
+            </div>
+
+          
+          <br>
+                
+        
+        
+        
+    
+        
+    </main>  
+    <footer>
+        <div class="container">
+            <div class="copyright">
+              &copy; Copyrights All Rights Reserved
+            </div>
+            <div class="credits">
+              Designed By <a href="https://www.linkedin.com/in/thrambadia-vishal">Vishal</a>
+            </div>
+          </div>
+    </footer>
+    <script src="static/script.js"></script>
+</body>
+</html>
